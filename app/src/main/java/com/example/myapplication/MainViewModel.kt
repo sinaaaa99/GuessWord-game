@@ -6,7 +6,40 @@ import androidx.lifecycle.ViewModel
 
 class MainViewModel : ViewModel() {
 
-    private val words = listOf("Android", "kotlin", "jetpack", "compose", "sina", "sona", "sarina")
+    private val words = listOf(
+        "Android",
+        "kotlin",
+        "jetpack",
+        "compose",
+        "airplane",
+        "boat",
+        "baby",
+        "scissors",
+        "ears",
+        "scissors",
+        "cough",
+        "phone",
+        "laugh",
+        "blink",
+        "hairbrush",
+        "sneeze",
+        "hammer",
+        "toothbrush",
+        "jump",
+        "slap",
+        "monster",
+        "hungry",
+        "karate",
+        "scare",
+        "fishing",
+        "read",
+        "judge",
+        "shadow",
+        "proud",
+        "window",
+        "coffee",
+        "birthday"
+    )
 
     private var secretWord = words.random().uppercase()
 
